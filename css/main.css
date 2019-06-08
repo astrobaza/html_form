@@ -1,0 +1,147 @@
+.appointment-form {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 2px 15px -1px rgba(214, 214, 214, 0.5);
+    border: 1px solid #eee;
+    padding: 30px 40px 40px;
+}
+
+.appointment-form * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.appointment-form h3 {
+    font-size: 22px;
+    color: #0099D8;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.appointment-form h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.appointment-form input, .appointment-form select {
+    padding: 9px 15px;
+    padding-left: 34px;
+    border: 1px solid #d5d5d5;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.appointment-form .field.message textarea {
+    width: 100%;
+    padding: 9px 15px;
+    padding-left: 34px;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.appointment-form input:focus, .appointment-form select:focus, .appointment-form .field.message textarea:focus {
+    outline: none;
+    border-color: #2fbdef;
+}
+
+.appointment-form input[type="file"] {
+    padding: 0;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.appointment-form input[type="submit"] {
+    width: 250px;
+    display: block;
+    margin-top: 30px;
+    padding: 9px 15px;
+    background-color: #2fbdef;
+    border-color: #2fbdef;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.appointment-form input[type="submit"]:hover {
+    background: #0289C2;
+    border-color: #0289C2;
+}
+
+.appointment-form .datepicker {
+    margin-bottom: 7px;
+}
+
+.appointment-form select, .appointment-form .datepicker, .appointment-form input[type="submit"] {
+    cursor: pointer;
+}
+
+.appointment-form .field {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 31%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+
+.appointment-form .field.message {
+    width: 63%;
+}
+
+.appointment-form .field span {
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.appointment-form .input-with-icon {
+    position: relative;
+}
+
+.appointment-form .field label {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.appointment-form .field i::before {
+    margin: 0;
+    line-height: 35px;
+}
+
+@media (max-width: 1200px) {
+    .appointment-form .field,
+    .appointment-form .field.message {
+        width: 48.5%;
+    }
+}
+
+@media (max-width: 575px) {
+    .appointment-form {
+        padding: 10px 15px 20px;
+    }
+
+    .appointment-form .field,
+    .appointment-form .field.message {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .appointment-form input[type="submit"] {
+        margin-top: 20px;
+    }
+}

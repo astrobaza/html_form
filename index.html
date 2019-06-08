@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+
+<form action="" class="appointment-form">
+    <h3>1. Datele tale</h3>
+    <div class="field">
+        <div class="input-with-icon">
+            <input type="text" placeholder="Nume *" id="nume">
+            <label for="nume"><i class="flaticon-user"></i></label>
+        </div>
+        <span>*Camp obligatoriu</span>
+    </div>
+    <div class="field">
+        <div class="input-with-icon">
+            <input type="text" placeholder="Prenume *" id="prenume">
+            <label for="prenume"><i class="flaticon-user"></i></label>
+        </div>
+        <span>*Camp obligatoriu</span>
+    </div>
+    <div class="field">
+        <div class="input-with-icon">
+            <input type="tel" placeholder="Numar de telefon *" id="telefon">
+            <label for="telefon"><i class="flaticon-phone"></i></label>
+        </div>
+        <span>*Camp obligatoriu (introduceti un numar de 10 cifre)</span>
+    </div>
+    <div class="field">
+        <div class="input-with-icon">
+            <input type="email" placeholder="Adresa de email *" id="email">
+            <label for="email"><i class="flaticon-mail"></i></label>
+        </div>
+        <span>*Camp obligatoriu (introduceti un email valid)</span>
+    </div>
+
+    <h3>1. Preferinte data si ora</h3>
+    <div class="field">
+        <h4>Preferinta 1</h4>
+        <div class="input-with-icon">
+            <input type="text" placeholder="Alege data..." class="datepicker" id="data1">
+            <label for="data1"><i class="flaticon-calendar-1"></i></label>
+        </div>
+        <div class="input-with-icon">
+            <select class="time" id="ora1">
+                <option value="Alege ora...">Alege ora...</option>
+                <option value="12:00">10:00</option>
+                <option value="12:00">10:30</option>
+                <option value="12:00">11:00</option>
+                <option value="12:00">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:00">12:30</option>
+                <option value="12:00">13:00</option>
+                <option value="12:00">13:30</option>
+                <option value="12:00">14:00</option>
+                <option value="12:00">14:30</option>
+                <option value="12:00">15:00</option>
+                <option value="12:00">15:30</option>
+                <option value="12:00">16:00</option>
+                <option value="12:00">16:30</option>
+                <option value="12:00">17:00</option>
+                <option value="12:00">17:30</option>
+            </select>
+            <label for="ora1"><i class="flaticon-clock"></i></label>
+        </div>
+    </div>
+
+    <div class="field">
+        <h4>Preferinta 3</h4>
+        <div class="input-with-icon">
+            <input type="text" placeholder="Alege data..." class="datepicker" id="data2">
+            <label for="data2"><i class="flaticon-calendar-1"></i></label>
+        </div>
+        <div class="input-with-icon">
+            <select class="time" id="ora2">
+                <option value="Alege ora...">Alege ora...</option>
+                <option value="12:00">10:00</option>
+                <option value="12:00">10:30</option>
+                <option value="12:00">11:00</option>
+                <option value="12:00">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:00">12:30</option>
+                <option value="12:00">13:00</option>
+                <option value="12:00">13:30</option>
+                <option value="12:00">14:00</option>
+                <option value="12:00">14:30</option>
+                <option value="12:00">15:00</option>
+                <option value="12:00">15:30</option>
+                <option value="12:00">16:00</option>
+                <option value="12:00">16:30</option>
+                <option value="12:00">17:00</option>
+                <option value="12:00">17:30</option>
+            </select>
+            <label for="ora2"><i class="flaticon-clock"></i></label>
+        </div>
+    </div>
+
+    <div class="field">
+        <h4>Preferinta 3</h4>
+        <div class="input-with-icon">
+            <input type="text" placeholder="Alege data..." class="datepicker" id="data3">
+            <label for="data3"><i class="flaticon-calendar-1"></i></label>
+        </div>
+        <div class="input-with-icon">
+            <select class="time" id="ora3">
+                <option value="Alege ora...">Alege ora...</option>
+                <option value="12:00">10:00</option>
+                <option value="12:00">10:30</option>
+                <option value="12:00">11:00</option>
+                <option value="12:00">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:00">12:30</option>
+                <option value="12:00">13:00</option>
+                <option value="12:00">13:30</option>
+                <option value="12:00">14:00</option>
+                <option value="12:00">14:30</option>
+                <option value="12:00">15:00</option>
+                <option value="12:00">15:30</option>
+                <option value="12:00">16:00</option>
+                <option value="12:00">16:30</option>
+                <option value="12:00">17:00</option>
+                <option value="12:00">17:30</option>
+            </select>
+            <label for="ora3"><i class="flaticon-clock"></i></label>
+        </div>
+    </div>
+
+
+    <h3>3. Introdu detaliile programarii</h3>
+    <div class="field">
+        <div class="input-with-icon">
+            <select class="time" id="detalii">
+                <option value="Altul...">Altul...</option>
+                <option value="detalii1">Lorem ipsum</option>
+                <option value="detalii2">Lorem ipsum</option>
+                <option value="detalii3">Lorem ipsum</option>
+            </select>
+            <label for="detalii"><i class="flaticon-comment"></i></label>
+        </div>
+        <span>*Camp obligatoriu</span>
+    </div>
+    <div class="field">
+        <div class="input-with-icon">
+            <input type="text" maxlength="50" placeholder="Scrie motivul... *" id="motiv">
+            <label for="motiv"><i class="flaticon-comment"></i></label>
+        </div>
+        <span>*Camp obligatoriu (maxim 50 caractere)</span>
+    </div>
+    <div class="field message">
+        <div class="input-with-icon">
+            <textarea name="" id="" cols="30" rows="5" placeholder="Informatii suplimentare" id="info"></textarea>
+            <label for="info"><i class="flaticon-pen"></i></label>
+        </div>
+        <span>Aceste informatii sunt foarte importante pentru noi pentru a eficientiza programarea si a rezolva nevoile dvs.!</span>
+    </div>
+
+    <h3>3. Ataseaza optional o poza/radiografie</h3>
+    <div class="field">
+        <input type="file" accept="image/*">
+        <span>Format jpg/jpeg/png. Marime maxima 10 MB</span>
+    </div>
+
+    <input type="submit" value="Programeaza-te">
+</form>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
